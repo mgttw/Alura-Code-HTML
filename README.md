@@ -1,1 +1,1 @@
-Com ajuda da alura fiz esse site com 3 abas diferente, uma onde conto um pouco sobre minha pouca experiencia "programando", um curriculo de exemplo e o home, onde fica a parte principal e algumas formas de contatos, tudo feito pra texte!!!
+Com ajuda da alura fiz esse site com 3 abas diferente, uma onde conto um pouco sobre minha pouca experiencia "programando", um curriculo de exemplo e o home, onde fica a parte principal e algumas formas de contatos, tudo feito pra teste!!!
