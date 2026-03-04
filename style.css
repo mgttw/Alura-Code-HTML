@@ -31,10 +31,10 @@ body{
 }
 
 .cabecalho{
-    padding: 2% 0 0 16%;
+    padding: 2% 16%;
     display: flex;
     gap: 50px;
-    margin-left: 20%;
+    /* margin-left: 20%; */
     
 
 
@@ -229,33 +229,37 @@ body{
 
 }
 
+.imagem img{
+    width: 100%;
+    height: auto;
+}
+
 @media (max-width: 768px){
 
     .cabecalho{
         padding: 6%;
+        flex-direction: column;
         justify-content: center;
-        margin-left: 2%;
+        align-items: center;
+        gap: 20px;
+        
         
 
     }
 
     .cabecalho__link{
-        font-size: 2.5rem;
+        font-size: 2rem;
 
     }
 
     .links{
-    margin-right: 0;
+    margin-left: 0;
 }
 
     .aps, .aps2{
         flex-direction: column-reverse;
         align-items: center;
-
-    }
-
-    .imagem{
-        order: -1;
+        margin: 10% 6%;
 
     }
 
@@ -269,13 +273,7 @@ body{
         margin-right: 8%;
 
     }
-
-
-    .links{
-        margin-right: 0;
-        
-
-    }
+    
 
     .sub{
         margin-left: 0;
