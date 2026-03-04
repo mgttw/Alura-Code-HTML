@@ -20,7 +20,9 @@
 }
 
 body{
-    width: 100%;
+
+    /* width: 100%; */
+    margin: 0;
     background-color: var(--cor-primaria);
     color:var(--cor-secundaria);
     
@@ -206,6 +208,7 @@ body{
 }
 
 .rodape{
+    width: 100%;
     font-family: "Quicksand", sans-serif;
     background-color: var(--cor-tercearia);;
     text-align: center;
@@ -241,8 +244,12 @@ body{
 
     }
 
+    .links{
+    margin-right: 0;
+}
+
     .aps, .aps2{
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
 
     }
@@ -265,7 +272,7 @@ body{
 
 
     .links{
-        margin-right: 15%;
+        margin-right: 0;
         
 
     }
@@ -280,6 +287,5 @@ body{
 
 
 }
-
 
 
