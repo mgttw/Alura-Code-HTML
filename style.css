@@ -280,19 +280,19 @@ body{
 
     }
 
-    .tt2__experiencias, .tt3__estudos{
-    font-family: var(--fonte-secundaria);
-    padding: 2% 0 0 17%;
-    font-size: 1.5rem;
-    font-weight: 350;
+    .tt2__experiencias, 
+    .tt3__estudos,
+    ul{
+        padding-left: 17%;
+    }
+
+
+}
 
 
 
 }
 
-
-
-}
 
 
 
