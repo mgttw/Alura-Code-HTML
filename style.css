@@ -226,7 +226,7 @@ body{
 
 }
 
-@media (max-width: 1500px){
+@media (max-width: 768px){
 
     .cabecalho{
         padding: 6%;
@@ -271,6 +271,7 @@ body{
 
 
 }
+
 
 
 
