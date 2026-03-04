@@ -242,10 +242,17 @@ body{
     }
 
     .aps, .aps2{
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
 
     }
+
+    .imagem{
+        order: -1;
+
+    }
+
+        
 
     .aps__cont2{
         gap: 5%;
@@ -271,6 +278,7 @@ body{
 
 
 }
+
 
 
 
